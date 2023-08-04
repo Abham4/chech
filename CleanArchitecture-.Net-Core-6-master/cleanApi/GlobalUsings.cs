@@ -1,0 +1,17 @@
+global using Microsoft.AspNetCore.Mvc;
+global using cleanInfrastructure;
+global using Microsoft.OpenApi.Models;
+global using cleanApplication;
+global using MediatR;
+global using cleanApplication.Common.Commands.Students;
+global using cleanApplication.Common.Queries.Students;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Data.SqlClient;
+global using cleanApi.Extensions;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using cleanDomain.Exceptions;
+global using Serilog;
+global using cleanInfrastructure.Context;
+global using cleanApi;
+global using cleanApi.Filters;
+global using Newtonsoft.Json;
